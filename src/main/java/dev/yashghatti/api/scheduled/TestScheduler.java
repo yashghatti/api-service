@@ -10,7 +10,7 @@ import org.springframework.scheduling.annotation.Scheduled;
 @Slf4j
 public class TestScheduler {
 
-    @Scheduled(fixedRate = 3000)
+//    @Scheduled(fixedRate = 3000)
     public void test(){
         log.info("Scheduled task invoked");
     }
